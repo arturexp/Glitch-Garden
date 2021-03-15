@@ -3,6 +3,8 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+TextMesh Pro/
+Glitch Hand Painted Grass  Texture/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -35,3 +37,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Glitch Garden/Assets/Hand Painted Grass  Texture.meta
+Glitch Garden/Assets/Hand Painted Grass  Texture/Material.meta
+Glitch Garden/Assets/Hand Painted Grass  Texture/Material/Gtass_mobile.mat
+Glitch Garden/Assets/Hand Painted Grass  Texture/Material/Gtass_mobile.mat.meta
