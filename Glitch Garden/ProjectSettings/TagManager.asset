@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - 234
   - Water
   - UI
-  - 
+  - starText
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Startext
+    uniqueID: 2303608733
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
