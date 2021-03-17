@@ -377,7 +377,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343fea3f5d2894a46ae25f5df6bfe820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defender: {fileID: 7898378717142976301, guid: 6e70464bea2db1741857faff70c309a4, type: 3}
+--- !u!114 &384176392 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6738420757480632203, guid: 6e70464bea2db1741857faff70c309a4, type: 3}
+  m_PrefabInstance: {fileID: 7898378717501986347}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05afa993e0c0d64b93a5ec868cac113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &549492400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -480,6 +490,8 @@ GameObject:
   m_Component:
   - component: {fileID: 721608034}
   - component: {fileID: 721608035}
+  - component: {fileID: 721608037}
+  - component: {fileID: 721608036}
   m_Layer: 0
   m_Name: trophy
   m_TagString: Untagged
@@ -542,7 +554,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 82f0bb3c22c77e44b832f79e1ccf0c96, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.44705883, g: 0.44705883, b: 0.44705883, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -552,6 +564,56 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &721608036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721608033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7c23277d2edc64983c7f95edaaed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defenderPrefab: {fileID: 743925513}
+--- !u!61 &721608037
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721608033}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.009529121, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.38, y: 0.62}
+    newSize: {x: 0.38, y: 0.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.47529042, y: 0.62}
+  m_EdgeRadius: 0
+--- !u!114 &743925513 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5568770179652042, guid: 172a3923d42d9e0409d49f010cea2684, type: 3}
+  m_PrefabInstance: {fileID: 28863693}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05afa993e0c0d64b93a5ec868cac113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &983788799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2339771842878745188, guid: b0380e4334507ca4eb3d42e48aee2f0e, type: 3}
@@ -628,6 +690,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1295125253}
   - component: {fileID: 1295125254}
+  - component: {fileID: 1295125256}
+  - component: {fileID: 1295125255}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -690,7 +754,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 3696933188249506563, guid: cc3e99988bdd17f4899635fa840de4af, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.44705883, g: 0.44705883, b: 0.44705883, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -700,6 +764,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1295125255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295125252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7c23277d2edc64983c7f95edaaed02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defenderPrefab: {fileID: 384176392}
+--- !u!61 &1295125256
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295125252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.256, y: 1.008}
+    newSize: {x: 1.256, y: 1.008}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9923203, y: 1.008}
+  m_EdgeRadius: 0
 --- !u!1001 &1354320912
 PrefabInstance:
   m_ObjectHideFlags: 0
